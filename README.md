@@ -1,12 +1,19 @@
 # Restaurant-Menu-Ordering-System-in-Python
-This project is a simple console-based application developed in Python that allows users to order food items from a predefined menu. The system presents a list of available items along with their prices and prompts the user to enter their desired selection. If the item is available, it is added to the order, and the total amount is calculated. The user can also choose to add another item. The program ensures user-friendly interaction by handling input validation, informing users when an item is unavailable, and providing the total cost at the end of the order.
+
+Project Description for Restaurant Menu Application:
+
+Restaurant Menu Application is a simple Python-based project that allows users to order food from a predefined menu. The program provides a list of items with their respective prices and enables customers to select and add items to their order. The total price of the order is calculated and displayed at the end.
+
+The project is designed to help understand and implement the following core Python concepts:
+
+Dictionaries: Used to define the menu, where items are stored as keys and their prices as values.
+Input Statements: Captures the user’s input for selecting items from the menu.
+Conditional Statements: Used to check if the selected items exist in the menu and to handle the user’s choice for additional orders.
+Loops: Can be extended to allow multiple item selections until the user chooses to stop.
 
 Key Features:
 
-    Predefined menu with items and corresponding prices
-    Input validation for item selection
-    Option to add multiple items to the order
-    Real-time order total calculation
-    User-friendly console interface
-
-This project helps reinforce concepts such as conditional statements, input handling, and working with dictionaries in Python.
+Display of available menu items with prices.
+Option to order multiple items.
+Validation to check whether the ordered item is available.
+Calculation and display of the total price at the end
